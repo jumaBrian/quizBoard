@@ -21,6 +21,7 @@ header img{
     margin-top: 0.2%;
     padding: 0.2%;
 }
+
 /*Styling below applies to main section of body*/
 main #sectionOne{
     width: 100%;
@@ -28,8 +29,6 @@ main #sectionOne{
     padding-top: 1%;
     display: flex;
     justify-content: space-between;
-    text-align: center;
-
 }
 main  #sectionOne h1{
     font-size:3em ;
@@ -47,3 +46,4 @@ main #quiz{
     width: 70%;
     margin-left: 15%;
 }
+/*Styling below applies to Quiz Container*/
