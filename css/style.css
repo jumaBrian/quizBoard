@@ -85,7 +85,7 @@ input[type="submit"]{
     text-align: center;
 }
 /*Styling below applies to quizResult*/
-#quizResult{
+.quizResult{
     margin-top: 15%;
     margin-bottom: 60%;
     width: 25vw;
