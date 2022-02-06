@@ -31,7 +31,7 @@ quiz.addEventListener("submit", (e) => {
 
   scrollTo({
     top: 0,
-    behavior: "smooth",
+    behavior: "auto",
   });
 
   // reloads the page for quiz reattempt
