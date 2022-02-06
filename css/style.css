@@ -1,3 +1,5 @@
+/* this page presents styling applied to our website to achieve visual appealing*/
+
 /*Global selector*/
 *{
     box-sizing: border-box;
@@ -45,6 +47,7 @@ header img{
     font-size: 1.5vw;
     text-align: left;
 }
+
 /*Styling below applies to Quiz Container*/
 #quiz{
     border: 0.35vw solid rgba(128, 0, 0, 0.6) ;
@@ -84,6 +87,7 @@ input[type="submit"]{
     margin-left: 35%;
     text-align: center;
 }
+
 /*Styling below applies to quizResult*/
 .quizResult{
     margin-top: 15%;
