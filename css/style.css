@@ -47,3 +47,12 @@ main #quiz{
     margin-left: 15%;
 }
 /*Styling below applies to Quiz Container*/
+
+/*Styling below applies to Footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 6%;
+    background-color: #808080;
+    bottom: 0px;
+}
