@@ -39,4 +39,11 @@ quiz.addEventListener("submit", (e) => {
   });
 
   // generating personalized message based on user score
+  if (percentageScore > 80) {
+    message.innerText = "You have passed EXCELLENTLY";
+  } else if (percentageScore >= 50 && percentageScore <= 80) {
+    message.innerText = "You have passed FAIRLY";
+  } else {
+    message.innerText = "You have scored poorly and need to retake test";
+  }
 });
