@@ -31,22 +31,54 @@ main #sectionOne{
     justify-content: space-between;
 }
 main  #sectionOne h1{
-    font-size:3em ;
+    font-size:3vw ;
     font-weight: 400;
     margin-bottom: 5%;
     text-align: left;
 }
 main  #sectionOne p{
     color: #808080;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     text-align: left;
 }
-main #quiz{
-    border: 0.35vw solid rgba(128, 0, 0, 0.6) ;
-    width: 70%;
-    margin-left: 15%;
-}
 /*Styling below applies to Quiz Container*/
+#quiz{
+    border: 0.35vw solid rgba(128, 0, 0, 0.6) ;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+#quiz h2{
+    font-size: 2vw;
+    text-align: center;
+    padding: 2%;
+}
+#quiz form{
+    font-size: 1vw;
+    padding-left: 10%;
+}
+.question{
+    padding-bottom: 3%;
+}
+.answer{
+    padding-top: 1.8%;
+}
+label{
+    padding-left: 5%;
+}
+label span{
+    font-size: 0.9vw;
+    padding-left: 1.8%;
+}
+input[type="button"]{
+    padding: 2% 5%;
+    border: none;
+    border-radius: 5%;
+    background-color: grey;
+    margin: 5%;
+    margin-left: 35%;
+    text-align: center;
+}
 
 /*Styling below applies to Footer*/
 footer{
