@@ -23,20 +23,23 @@ header img{
 }
 
 /*Styling below applies to main section of body*/
-main #sectionOne{
+#main{
+    display: flex;
+}
+#sectionOne{
     width: 100%;
     padding: 2% ;
     padding-top: 1%;
     display: flex;
     justify-content: space-between;
 }
-main  #sectionOne h1{
+#sectionOne h1{
     font-size:3vw ;
     font-weight: 400;
     margin-bottom: 5%;
     text-align: left;
 }
-main  #sectionOne p{
+#sectionOne p{
     color: #808080;
     font-size: 1.5vw;
     text-align: left;
@@ -45,7 +48,8 @@ main  #sectionOne p{
 #quiz{
     border: 0.35vw solid rgba(128, 0, 0, 0.6) ;
     width: 60%;
-    margin-left: 20%;
+    margin-left: 6%;
+    margin-right: 6%;
     margin-bottom: 10%;
 }
 #quiz h2{
@@ -77,6 +81,24 @@ input[type="button"]{
     background-color: grey;
     margin: 5%;
     margin-left: 35%;
+    text-align: center;
+}
+/*Styling below applies to quizResult*/
+#quizResult{
+    margin-top: 15%;
+    margin-bottom: 60%;
+    width: 25vw;
+    text-align: center;
+    padding: 3%;
+    border: rgba(128, 0, 0, 0.6) 0.35vw solid;
+}
+button{
+    padding: 3% 5%;
+    border: none;
+    border-radius: 5%;
+    background-color: grey;
+    margin: 10%;
+    margin-top: 10%;
     text-align: center;
 }
 
