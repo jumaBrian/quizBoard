@@ -89,11 +89,13 @@ input[type="submit"]{
     margin-top: 15%;
     margin-bottom: 60%;
     width: 25vw;
+    font-size: 1.1vw;
     text-align: center;
     padding: 3%;
     border: rgba(128, 0, 0, 0.6) 0.35vw solid;
 }
 button{
+    font-size: 1vw;
     padding: 3% 5%;
     border: none;
     border-radius: 5%;
