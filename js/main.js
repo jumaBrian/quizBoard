@@ -26,5 +26,17 @@ quiz.addEventListener("submit", (e) => {
   percentageScore = Number(((points / correctAnswers.length) * 100).toFixed(2));
 
   total.innerText = percentageScore;
- 
+
+  // for auto scroll to the top on button click
+  scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+
+  // reloads the page for quiz reattempt
+  reload.addEventListener("click", () => {
+    window.location.reload();
+  });
+
+  // generating personalized message based on user score
 });
