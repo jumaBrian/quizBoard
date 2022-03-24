@@ -1,7 +1,6 @@
 # quiz-Board
 
  Design link |
-Created using Figma: https://www.figma.com/file/8NoDCwwVqbSPOiUcO6BnKm/quizBoard?node-id=0%3A1
 
 ![](images/design.png)
 ## Table of Contents
